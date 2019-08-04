@@ -25,7 +25,10 @@ html {
         }
 
         .todo-list-group {
-        	margin-top: 10px;
+			margin-top: 10px;
+			padding-bottom: 10px;
+			overflow: auto;
+    		height: 500px;
 
         	.todo-list-item-container {
         		background-color: #fff;
@@ -48,6 +51,18 @@ html {
         
         .cursor-pointer {
         	cursor: pointer
-        }
+		}
+		
+		.margin-top-02 {
+			margin-top: 2px;
+		}
+
+		.margin-bottom-02 {
+			margin-bottom: 2px;
+		}
+
+		.margin-right-02 {
+			margin-right: 2px;
+		}
     }
 }
